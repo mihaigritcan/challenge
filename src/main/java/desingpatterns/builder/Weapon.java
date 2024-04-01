@@ -1,4 +1,4 @@
-package desingPatterns.builder;
+package desingpatterns.builder;
 
 import java.util.List;
 

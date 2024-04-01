@@ -1,4 +1,4 @@
-package desingPatterns.singleton;
+package desingpatterns.singleton;
 
 public class SimpleCounter {
       private static final SimpleCounter INSTANCE = new SimpleCounter();

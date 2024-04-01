@@ -1,6 +1,4 @@
-package desingPatterns.singleton;
-
-import desingPatterns.singleton.SimpleCounter;
+package desingpatterns.singleton;
 
 public class SimpleCounterUsage {
     public static void main(String[] args) {
