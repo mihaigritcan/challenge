@@ -4,21 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a0fa2ea-de5b-42f0-ab7c-7e335f4f90c4" name="Changes" comment="add designPatterns package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/BoardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/FactoryMethodUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/GameFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/MonopolyGameCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/PCGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/factorymethod/ValorantGameCreator.java" afterDir="false" />
+    <list default="true" id="1a0fa2ea-de5b-42f0-ab7c-7e335f4f90c4" name="Changes" comment="update pakage designpatterns">
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AbstractCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AbstractFactoryUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AudiA4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AudiA4Combi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AudiA4Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AudiA4Hatchback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/AudiA4Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/FactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/ToyotaCorolla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/ToyotaCorollaCombi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/ToyotaCorollaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/ToyotaCorollaHatchback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/ToyotaCorollaSedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/abstractfactory/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/builder/GraphicsCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/builder/GraphicsCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/builder/LombokBuilderUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/builder/LombokBuilderUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/builder/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/builder/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/builder/WeaponUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/builder/WeaponUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/singleton/SimpleCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/singleton/SimpleCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/desingPatterns/singleton/SimpleCounterUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/desingpatterns/singleton/SimpleCounterUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChallengeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChallengeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -63,13 +71,18 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LombokBuilderUsage">
-    <configuration name="LombokBuilderUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desingpatterns.builder.LombokBuilderUsage" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="desingpatterns.abstractfactory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AbstractFactoryUsage">
+    <configuration name="AbstractFactoryUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desingpatterns.abstractfactory.AbstractFactoryUsage" />
       <module name="challenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desingpatterns.builder.*" />
+          <option name="PATTERN" value="desingpatterns.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RemoveDups" />
+    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Challenge" />
       <module name="challenge" />
       <extension name="coverage">
         <pattern>
@@ -90,33 +103,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCounterUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desingpatterns.singleton.SimpleCounterUsage" />
-      <module name="challenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="desingpatterns.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDupsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveDupsTest" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDupsTest.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengeTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveDupsTest" />
-      <option name="METHOD_NAME" value="test0" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChallengeTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChallengeTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LombokBuilderUsage" />
-        <item itemvalue="Application.SimpleCounterUsage" />
-        <item itemvalue="JUnit.RemoveDupsTest" />
-        <item itemvalue="JUnit.RemoveDupsTest.test0" />
-        <item itemvalue="Application.RemoveDups" />
+        <item itemvalue="Application.AbstractFactoryUsage" />
+        <item itemvalue="JUnit.ChallengeTest" />
+        <item itemvalue="JUnit.ChallengeTest.test02" />
+        <item itemvalue="Application.Challenge" />
+        <item itemvalue="JUnit.ChallengeTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711958347412</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update pakage designpatterns">
+      <created>1711972150273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711972150273</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,16 +194,12 @@
     <MESSAGE value="add CupsSwapping and RemoveDups classes" />
     <MESSAGE value="add CupsSwapping and RemoveDups + tests" />
     <MESSAGE value="add designPatterns package" />
-    <option name="LAST_COMMIT_MESSAGE" value="add designPatterns package" />
+    <MESSAGE value="update pakage designpatterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pakage designpatterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Challenge.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PrisonersDilemma.java</url>
           <line>6</line>
@@ -201,6 +214,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PrisonersDilemma.java</url>
           <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Challenge.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
